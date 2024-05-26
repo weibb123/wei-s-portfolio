@@ -11,6 +11,9 @@ export default function Projects() {
 
   return (
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
+       <p style={{ textAlign: "center" }}>
+        Check my recent projects <a href="https://github.com/weibb123">Click Here</a>!
+      </p>
       <SectionHeading>My projects</SectionHeading>
       <div>
         {projectsData.map((project, index) => (
@@ -19,6 +22,7 @@ export default function Projects() {
           </React.Fragment>
         ))}
       </div>
+     
     </section>
   );
 }
